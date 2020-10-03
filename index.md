@@ -10,7 +10,7 @@ title: "Welcome Comrade!"
 <!--Put Content Here.-->
 
 * <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=20/> <font size="5">Languages.</font> <br>
-<img src="/_content/_icons/c++.png" alt="C++" width=60 height=60/> <img src="/_content/_icons/py.png" alt="Python" width=60 height=60/> <img src="/_content/_icons/bash.png" alt="Bash" width=60 height=60/> <img src="/_content/_icons/js.png" alt="Javascript" width=60 height=60/><br>
+<img src="/_content/_icons/c++.png" width=60 height=60/> <img src="/_content/_icons/py.png" width=60 height=60/> <img src="/_content/_icons/bash.png" width=60 height=60/> <img src="/_content/_icons/js.png" width=60 height=60/><br>
 
 * <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=20/> <font size="5">Tools.</font> <br>
 VirtualBox, Genymotion, Wireshark, VisualStudio, Linux, Photoshop <br>
