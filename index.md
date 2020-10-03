@@ -9,7 +9,7 @@ title: "Welcome Comrade!"
 
 <!--Put Content Here.-->
 
-* <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=25/> <font size="400"> Languages.</font> <br>
+* <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=25/> <font size="200"> Languages.</font> <br>
 C++, Python, Bash, JavaScript <br> 
 
 * </>Tools.<br>
