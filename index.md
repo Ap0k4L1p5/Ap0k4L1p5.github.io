@@ -10,7 +10,7 @@ title: "Welcome Comrade!"
 <!--Put Content Here.-->
 
 * <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=20/> <font size="5">Languages.</font> <br>
-<img src="./_content/_icons/c++.png" width=60 height=60/>
+<img src="_content/_icons/c++.png" width=60 height=60/>
 
 * <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=20/> <font size="5">Tools.</font> <br>
 VirtualBox, Genymotion, Wireshark, VisualStudio, Linux, Photoshop <br>
