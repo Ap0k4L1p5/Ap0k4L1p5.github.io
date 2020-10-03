@@ -13,7 +13,7 @@ title: "Welcome Comrade!"
 C++, Python, Bash, JavaScript <br> 
 
 * </>Tools.<br>
-VirtualBox, Genymotion, Wireshark, VisualStudio, Linux <br>
+VirtualBox, Genymotion, Wireshark, VisualStudio, Linux, Photoshop <br>
 
 * </>Operating System.<br>
 Github, Windows, Kali, Ubuntu, BlackArch, Android <br>
@@ -28,8 +28,9 @@ Github, Windows, Kali, Ubuntu, BlackArch, Android <br>
 <!--sini utk content2 ni just letak link klu post dr tempat lain, klu nk upload sini just append link-->
 
 ### WHOAMI:~$
-> Anything related to me.
+> Anything connected to me.
 >
 > Twitter: [Prof. Apokalips](https://twitter.com/ap0k4l1p5)<br>
+> LinkedIn: [Ap0k4L1p5](https://github.com/Ap0k4L1p5/Ap0k4L1p5.github.io/blob/master/_content/me.html)<br>
 > Email: [Prof. Apokalips](mailto:prof.apokalips@protonmail.com)
 <!--nanti pikiaq lain utk tambah sini; as in nk letak tweethandle or linkedin n so on-->
