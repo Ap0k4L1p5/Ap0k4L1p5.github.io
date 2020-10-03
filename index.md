@@ -31,6 +31,6 @@ Github, Windows, Kali, Ubuntu, BlackArch, Android <br><br>
 > Anything connected to me.
 >
 > Twitter: [Prof. Apokalips](https://twitter.com/ap0k4l1p5)<br>
-> LinkedIn: [Ap0k4L1p5](https://github.com/Ap0k4L1p5/Ap0k4L1p5.github.io/blob/master/me.md)<br>
+> LinkedIn: [Ap0k4L1p5](https://ap0k4l1p5.github.io/me.md)<br>
 > Email: [Prof. Apokalips](mailto:prof.apokalips@protonmail.com)
 <!--nanti pikiaq lain utk tambah sini; as in nk letak tweethandle or linkedin n so on-->
