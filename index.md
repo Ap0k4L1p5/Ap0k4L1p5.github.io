@@ -5,7 +5,7 @@ title: "Welcome Comrade!"
 <!--this layout&title shit compulsory for the typed animation-->
 # WELCOME COMRADE! 🐱‍💻
 
-### HOME:~#
+### HOME:~$
 
 <!--Put Content Here.-->
 
@@ -21,15 +21,15 @@ Github, Windows, Kali, Ubuntu, BlackArch, Android <br>
 [HackTheBox](https://app.hackthebox.eu/profile/105032)<br>
 <img src="http://www.hackthebox.eu/badge/image/105032" alt="Hack The Box">
 
-### CONTENT:~#
+### CONTENT:~$
 
 * WriteUP
 * Soon!
 <!--sini utk content2 ni just letak link klu post dr tempat lain, klu nk upload sini just append link-->
 
-### WHOAMI:~#
+### WHOAMI:~$
 > Anything related to me.
 >
-> Twitter: Prof. Apokalips<br>
+> Twitter: [Prof. Apokalips](https://twitter.com/ap0k4l1p5)<br>
 > Email: [Prof. Apokalips](mailto:prof.apokalips@protonmail.com)
 <!--nanti pikiaq lain utk tambah sini; as in nk letak tweethandle or linkedin n so on-->
