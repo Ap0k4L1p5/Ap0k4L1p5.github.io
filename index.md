@@ -10,12 +10,12 @@ title: "Welcome Comrade!"
 <!--Put Content Here.-->
 
 * <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=20/> <font size="5">Languages.</font> <br>
-C++, Python, Bash, JavaScript <br> 
+<img src="/_content/_icons/c++.png" alt="C++" width=60 height=60/> <img src="/_content/_icons/py.png" alt="Python" width=60 height=60/> <img src="/_content/_icons/bash.png" alt="Bash" width=60 height=60/> <img src="/_content/_icons/js.png" alt="Javascript" width=60 height=60/><br>
 
 * <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=20/> <font size="5">Tools.</font> <br>
 VirtualBox, Genymotion, Wireshark, VisualStudio, Linux, Photoshop <br>
 
-* <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=20/> <font size="5">Operating System.</font> <br>
+* <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=20/> <font size="5">Operating Systems.</font> <br>
 Github, Windows, Kali, Ubuntu, BlackArch, Android <br><br>
 <!--sini utk content home ni buat png then masukkn dlm folder img github repo ni pastu link ke content2 ni-->
 <!--[HackTheBox](https://app.hackthebox.eu/profile/105032)<br>-->
@@ -33,4 +33,3 @@ Github, Windows, Kali, Ubuntu, BlackArch, Android <br><br>
 > Twitter: [Prof. Apokalips](https://twitter.com/ap0k4l1p5)<br>
 > LinkedIn: [Ap0k4L1p5](/me.md)<br>
 > Email: [Prof. Apokalips](mailto:prof.apokalips@protonmail.com)
-<!--nanti pikiaq lain utk tambah sini; as in nk letak tweethandle or linkedin n so on-->
