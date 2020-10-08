@@ -22,7 +22,7 @@ title: "Welcome Comrade!"
 
 ### CONTENT:~$
 
-* [WriteUp](Ap0k4L1p5.github.io/_content/_pages/_writeup/writeup)
+* [WriteUp](/_content/_pages/writeup.md)
 * [Medium](/)
 * [Research](/)
 <!--sini utk content2 ni just letak link klu post dr tempat lain, klu nk upload sini just append link-->
