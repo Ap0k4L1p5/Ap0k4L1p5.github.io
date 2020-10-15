@@ -22,7 +22,7 @@ title: "Welcome Comrade!"
 
 ### CONTENT:~$
 
-* [WriteUp](/writeup.md)
+* [WriteUp](/content/pages/writeup.md)
 * [Medium](/)
 * [Research](/)
 <!--sini utk content2 ni just letak link klu post dr tempat lain, klu nk upload sini just append link-->
