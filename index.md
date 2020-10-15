@@ -24,7 +24,7 @@ title: "Welcome Comrade!"
 
 * [WriteUp](/content/pages/writeup.md)
 * [Medium](/)
-* [Research](/)
+* [Research](/content/pages/r.md)
 <!--sini utk content2 ni just letak link klu post dr tempat lain, klu nk upload sini just append link-->
 
 ### WHOAMI:~$
