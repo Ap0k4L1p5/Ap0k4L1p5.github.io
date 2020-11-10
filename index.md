@@ -2,8 +2,10 @@
 layout: default
 title: "Welcome Comrade!"
 --- 
-<!--this layout&title shit compulsory for the typed animation-->
+
 # WELCOME COMRADE! 🐱‍💻
+
+> Comrade, render yourself in liberty to reconnoitre here.
 
 ### HOME:~$
 
