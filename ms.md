@@ -1,5 +1,5 @@
 # Yo, calm down!
-You sure wanna do this? This is some confidential shit ya know. Its a national-level document you're requesting to view. Bet you wanna think again coz it might trouble you later mate.
+Hol' up, this is some confidential thingy ya know. Its a national-level document you're requesting to view. Bet you wanna think again coz it might trouble you later mate.
 
 Anyway you may check this out.
 
