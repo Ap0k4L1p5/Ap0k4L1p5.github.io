@@ -12,4 +12,4 @@ Well if you insist, can negotiate through email.
 
 Email me: [ProtonMail](mailto:prof.apokalips@protonmail.com)
 
-*  ##### [BACK](/index.html "Back to Homepage")
+*  ##### [BACK](/content/pages/writeup.html "Back to Homepage")
