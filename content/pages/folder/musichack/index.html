@@ -17,18 +17,18 @@
 			<div class="container synth-ctrl">
 				<table>
 					<tr>
-						<td class="right w50" style="padding-top: 20px; text-align: right;">Show hotkey</td>
+						<td class="right w50 tooltipped" data-tooltip="Keyboard bind" style="padding-top: 20px; text-align: right;">Show hotkey</td>
 						<td class="w50"><p class="col"><label><input type="checkbox" id="show_hotkey"><span></span></label></p></td>
 					</tr>
 					<tr>
-						<td class="right w33"><input placeholder="Play custom key" type="text" id="key" style="padding-top: 10px;"></td>
+						<td class="right w33 tooltipped" data-tooltip="A to G followed by number" ><input placeholder="Play custom key" type="text" id="key" style="padding-top: 10px;"></td>
 						<td class="right w33">
-							<p class="range-field" style="text-align: center;">
+							<p class="range-field tooltipped" data-tooltip="Adjust duration of note" style="text-align: center;">
 								<input type="range" min="1" max="16" step="1" id="duration" value="8">
 								<span>Duration: <span id="dur"></span>n</span>
 							</p>
 						</td>
-						<td class="w33"><button class="btn btn-small" id="play">play</button></td>
+						<td class="w33"><button class="btn btn-small tooltipped" data-tooltip="Play 1 note" id="play">play</button></td>
 					</tr>
 					<!-- <tr>
 						<td colspan="100">
@@ -85,7 +85,8 @@
 		const synth = new Tone.Synth().toDestination();
 
 		$(document).ready(function() {
-
+			
+			$('.tooltipped').tooltip();
 			getActiveKey();
 
 			$("#dur").text($("#duration").val());
