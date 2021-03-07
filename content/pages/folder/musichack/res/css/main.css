@@ -78,7 +78,7 @@ input[type='text'] {
 
 .set-black {
 	z-index: 100;
-	position: fixed;
+	position: absolute;
 	max-width: 490px;
 	margin-left: 110px;
 }
