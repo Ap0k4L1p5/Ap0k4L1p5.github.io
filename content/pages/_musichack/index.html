@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Synthesizer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
+	<link rel="stylesheet" type="text/css" href="res/css/main.css">
+	<script type="text/javascript" src="res/js/Tone.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Synthesizer</h2>
+		<p>By <a target="_blank" href="https://github.com/frainmaster">@frainmaster</a> & <a target="_blank" href="https://github.com/Ap0k4L1p5">@Ap0k4L1p5</a></p>
+		<div class="synth-body">
+			<div class="container synth-ctrl">
+				<table>
+					<tr>
+						<td class="right w50" style="padding-top: 20px; text-align: right;">Show hotkey</td>
+						<td class="w50"><p class="col"><label><input type="checkbox" id="show_hotkey"><span></span></label></p></td>
+					</tr>
+					<tr>
+						<td class="right w33"><input placeholder="Play custom key" type="text" id="key" style="padding-top: 10px;"></td>
+						<td class="right w33">
+							<p class="range-field" style="text-align: center;">
+								<input type="range" min="1" max="16" step="1" id="duration" value="8">
+								<span>Duration: <span id="dur"></span>n</span>
+							</p>
+						</td>
+						<td class="w33"><button class="btn btn-small" id="play">play</button></td>
+					</tr>
+					<!-- <tr>
+						<td colspan="100">
+							<input type="range" min="1" max="10" value="1" step="1">
+							<span class="thumb" style="display: none;"></span>
+						</td>
+					</tr> -->
+				</table>
+			</div>
+			<div class="synth-key-body">
+				<div class="synth-key-set set-white">
+					<a class="synth-key key-white" hotkey="s" id="c" key="c4"><div class="key-label"><span class="key-hotkey">S</span><br><span class="active-key"></span></div></a>
+					<a class="synth-key key-white" hotkey="d" id="d" key="d4"><div class="key-label"><span class="key-hotkey">D</span><br><span class="active-key"></span></div></a>
+					<a class="synth-key key-white" hotkey="f" id="e" key="e4"><div class="key-label"><span class="key-hotkey">F</span><br><span class="active-key"></span></div></a>
+					<a class="synth-key key-white" hotkey="g" id="f" key="f4"><div class="key-label"><span class="key-hotkey">G</span><br><span class="active-key"></span></div></a>
+					<a class="synth-key key-white" hotkey="h" id="g" key="g4"><div class="key-label"><span class="key-hotkey">H</span><br><span class="active-key"></span></div></a>
+					<a class="synth-key key-white" hotkey="j" id="a" key="a4"><div class="key-label"><span class="key-hotkey">J</span><br><span class="active-key"></span></div></a>
+					<a class="synth-key key-white" hotkey="k" id="b" key="b4"><div class="key-label"><span class="key-hotkey">K</span><br><span class="active-key"></span></div></a>
+				</div>
+				<div class="synth-key-set set-black">
+					<a class="synth-key key-black" hotkey="e" id="c#" key="c#4"><div class="key-label"><span class="key-hotkey">E</span><br><span class="active-key"></span></div></a>
+					<a class="synth-key key-black" hotkey="r" id="d#" key="d#4"><div class="key-label"><span class="key-hotkey">R</span><br><span class="active-key"></span></div></a>
+					<div class="key-black gap"></div>
+					<a class="synth-key key-black" hotkey="y" id="f#" key="f#4"><div class="key-label"><span class="key-hotkey">Y</span><br><span class="active-key"></span></div></a>
+					<a class="synth-key key-black" hotkey="u" id="g#" key="g#4"><div class="key-label"><span class="key-hotkey">U</span><br><span class="active-key"></span></div></a>
+					<a class="synth-key key-black" hotkey="i" id="a#" key="a#4"><div class="key-label"><span class="key-hotkey">I</span><br><span class="active-key"></span></div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script>
+		
+		// const synth = new Tone.Synth({
+		// 	oscillator: {
+		// 		type: "amtriangle",
+		// 		harmonicity: 0.5,
+		// 		modulationType: "sine"
+		// 	},
+		// 	envelope: {
+		// 		attackCurve: "exponential",
+		// 		attack: 0.05,
+		// 		decay: 0.2,
+		// 		sustain: 0.2,
+		// 		release: 1.5,
+		// 	},
+		// 	portamento: 0.05
+		// }).toDestination();
+		const synth = new Tone.Synth().toDestination();
+
+		$(document).ready(function() {
+
+			getActiveKey();
+
+			$("#dur").text($("#duration").val());
+			$("#duration").on("change", function() { $("#dur").text($(this).val()) });
+
+			$(".synth-key").mousedown(function(e) {
+				// console.log($(this).attr("id"))
+				synth.triggerAttackRelease($(this).attr("key"), "8n");
+				e.stopPropagation();
+			});
+
+			$("#play").mousedown(function() {
+				let duration = $("#duration").val() ? $("#duration").val() : "8";
+				if ($("#key").val()) synth.triggerAttackRelease($("#key").val(), duration + "n");
+			});
+
+			$("#show_hotkey").on("change", function() {
+				$(".key-hotkey").toggle();
+			});
+
+			$(document).keypress(function(e) {
+				$(".synth-key-body").find(".synth-key").each(function() {
+					if ($(this).attr("hotkey") == e.key) {
+						synth.triggerAttackRelease($(this).attr("key"), "8n");
+					}
+				});
+			});
+		});
+
+		function getActiveKey() {
+			$(".synth-key-body").find(".synth-key").each(function() {
+				$(this).find(".active-key").text($(this).attr("id"));
+			});
+		}
+
+	</script>
+</body>
+</html>
