@@ -5,17 +5,17 @@ body {
 }
 
 td {
-	/*width: 33.3%;*/
-	padding: 5px;
+	
+	padding: 3px;
 }
 
-table { border-collapse: inherit; }
+table {  padding-left: 100px; border-collapse: inherit; }
 
 .w50 { width: 50%; }
-.w33 { width: 33%; }
+.w33 { width: 50%; }
 
 input[type='text'] {
-	color: white; text-align: right; font-family: consolas;
+	color: white; text-align: center; font-family: consolas;
 }
 
 .container { text-align: center; }
@@ -102,4 +102,46 @@ input[type='text'] {
 .key-hotkey {
 	color: #ff7f50;
 	display: none;
+}
+
+.collapsible {
+  background-color: #26a69a;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.active, .collapsible:hover {
+  background-color: #51b7ae	;
+}
+
+.content {
+  padding: 0 18px;
+  color: #8fbc8f;
+  font-size: 20px;
+  max-height: 0;
+  line-height: 1;
+  letter-spacing: -1px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #afe8f7;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #afe8f7;
+  border-radius: 10px;
 }
