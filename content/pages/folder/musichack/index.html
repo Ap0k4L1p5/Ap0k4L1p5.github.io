@@ -17,18 +17,18 @@
 			<div class="container synth-ctrl">
 				<table>
 					<tr>
-						<td class="right w50 tooltipped" data-tooltip="Keyboard bind" style="padding-top: 20px; text-align: right;">Show hotkey</td>
+							<td class="right w50 tooltipped" data-tooltip="Keyboard bind" style="padding-top: 20px; text-align: right;">Show hotkey</td>
 						<td class="w50"><p class="col"><label><input type="checkbox" id="show_hotkey"><span></span></label></p></td>
 					</tr>
 					<tr>
-						<td class="right w33 tooltipped" data-tooltip="A to G followed by number" ><input placeholder="Play custom key" type="text" id="key" style="padding-top: 10px;"></td>
+						<td class="right w33 tooltipped" data-tooltip="A to G followed by number"><input placeholder="Custom key" type="text" id="key" style="padding-top: 10px;"></td>
 						<td class="right w33">
 							<p class="range-field tooltipped" data-tooltip="Adjust duration of note" style="text-align: center;">
 								<input type="range" min="1" max="16" step="1" id="duration" value="8">
 								<span>Duration: <span id="dur"></span>n</span>
 							</p>
 						</td>
-						<td class="w33"><button class="btn btn-small tooltipped" data-tooltip="Play 1 note" id="play">play</button></td>
+						<td><button class="btn btn-small tooltipped" data-tooltip="Play 1 note" id="play">play</button></td>
 					</tr>
 					<!-- <tr>
 						<td colspan="100">
@@ -56,13 +56,34 @@
 					<a class="synth-key key-black" hotkey="u" id="g#" key="g#4"><div class="key-label"><span class="key-hotkey">U</span><br><span class="active-key"></span></div></a>
 					<a class="synth-key key-black" hotkey="i" id="a#" key="a#4"><div class="key-label"><span class="key-hotkey">I</span><br><span class="active-key"></span></div></a>
 				</div>
+				
 			</div>
+			
 		</div>
 		<br>
-		<a class="btn btn-small" href="https://ap0k4l1p5.github.io/content/pages/writeup.html">Back</a>   <a class="btn btn-small" href="https://ap0k4l1p5.github.io/index.html">Home</a>
+		<a class="btn btn-small" href="https://ap0k4l1p5.github.io/content/pages/writeup.html">Back</a>   <a class="btn btn-small" href="https://ap0k4l1p5.github.io/index.html">Home</a>   <a class="btn btn-small" href="https://www.linkedin.com/posts/irfan-ahmad-995aa7160_synthesizer-activity-6770748872311525376-mNRG">Context</a>
+	<br>
+	<br>
+	<br>
+	<a class="collapsible">Open WriteUp</a>
+	<div class="content">
+  
+	<p><br>
+	Privet!<br><br>
+	1. As starter, explore the Synthesizer functionality and get familiar with. You may start by clicking any key on the Synthesizer and it will produce sound!<br><br>
+	<embed src="res/img/1.gif" style="width:500px; height:277px;" allowFullScreen></embed><br><br>
+	2. You can play using keyboard too by click Show key checkbox to display keyboard bind and play based on it. Much easier to play this way isn't.<br><br>
+	<embed src="res/img/2.gif" style="width:500px; height:277px;" allowFullScreen></embed><br><br>
+	3. You also can try other key that not displayed in Synthesizer by input Custom key and press Play button. Noted that its only applicable from letter range of A until G together with 1 to 9.
+	While Duration indicates the duration of note played, the more note adjusted the less duration key played.<br><br>
+	<embed src="res/img/3.gif" style="width:500px; height:277px;" allowFullScreen></embed><br><br>
+	Enjoy and have fun!	
+	<br>
+	<br>
+	</p>	
+	
 	</div>
-	</div>
-
+ 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<script>
@@ -70,7 +91,7 @@
 		const synth = new Tone.Synth().toDestination();
 
 		$(document).ready(function() {
-			
+
 			$('.tooltipped').tooltip();
 			getActiveKey();
 
@@ -108,5 +129,23 @@
 		}
 
 	</script>
+	
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight){
+			  content.style.maxHeight = null;
+			} else {
+			  content.style.maxHeight = content.scrollHeight + "px";
+			} 
+		  });
+		}
+		</script>
+	
 </body>
 </html>
