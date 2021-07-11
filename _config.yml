@@ -1,5 +1,7 @@
 theme: jekyll-theme-hacker
 title: prof.apokalips
+plugins:
+ - jekyll-seo-tag
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   F0r3SeEn 7hE FOr3t01d.
