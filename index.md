@@ -20,8 +20,7 @@ title: "Welcome Comrade!"
 * <img src="https://img.icons8.com/color/26/000000/source-code.png" width=25 height=20/> <font size="5">Operating Systems.</font> <br><br>
 <img src="https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/_content/_icons/git.png" width=60 height=60/>  <img src="https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/_content/_icons/w.png" width=60 height=60/>  <img src="https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/_content/_icons/k.png" width=60 height=60/>  <img src="https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/_content/_icons/u.png" width=60 height=60/> <img src="https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/_content/_icons/ba-logo.png" width=60 height=60/>  <img src="https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/_content/_icons/android.png" width=60 height=60/> <br><br>
 <!--[HackTheBox](https://app.hackthebox.eu/profile/105032)<br>-->
-[<img src="http://www.hackthebox.eu/badge/image/105032" alt="Hack The Box">](https://app.hackthebox.eu/profile/105032) [<img src="https://tryhackme-badges.s3.amazonaws.com/Ap0k4L1p5.png" alt="TryHackMe">](https://tryhackme.com/p/Ap0k4L1p5)
-<!--<a></a><a><img src="https://tryhackme-badges.s3.amazonaws.com/Ap0k4L1p5.png" alt="TryHackMe"></a>-->
+[<img src="http://www.hackthebox.eu/badge/image/105032" alt="Hack The Box">](https://app.hackthebox.eu/profile/105032) <a></a><a><img src="https://tryhackme-badges.s3.amazonaws.com/Ap0k4L1p5.png" alt="TryHackMe"></a>
 
 ### CONTENT:~$
 
