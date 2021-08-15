@@ -89,13 +89,13 @@ function encrypt(password) {
 }
 
 gulp.task('firewall:encrypt', () => {
-  return gulp.src('_protected/*.*')
+  return gulp.src('https://github.com/Ap0k4L1p5/private-repo/tree/master/folder/_protected/usbripper')
     .pipe(encrypt('password'))
-    .pipe(gulp.dest('_posts'));
+    .pipe(gulp.dest('https://github.com/Ap0k4L1p5/Ap0k4L1p5.github.io/tree/master/_posts'));
 });
 
 gulp.task('firewall:watch', () => {
-  gulp.watch('_protected/*.*', gulp.series('firewall:encrypt'));
+  gulp.watch('https://github.com/Ap0k4L1p5/private-repo/tree/master/folder/_protected/usbripper', gulp.series('firewall:encrypt'));
 });
 
 gulp.task('firewall', gulp.series('firewall:encrypt', 'firewall:watch',() => {}));
