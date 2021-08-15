@@ -1,5 +1,5 @@
 *  # Medium.
 
-   - [test](/content/pages/folder/walkthrough/usbripper/_posts/2018/02/04/super-secret-sauce.html)
+   - [test](/content/pages/folder/walkthrough/usbripper)
    - Soon!
 *  ##### [BACK](/index.html "Back to Homepage")
