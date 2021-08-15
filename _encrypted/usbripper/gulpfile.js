@@ -91,7 +91,7 @@ function encrypt(password) {
 gulp.task('firewall:encrypt', () => {
   return gulp.src('https://github.com/Ap0k4L1p5/private-repo/tree/master/folder/_protected/usbripper')
     .pipe(encrypt('password'))
-    .pipe(gulp.dest('https://github.com/Ap0k4L1p5/Ap0k4L1p5.github.io/tree/master/_posts'));
+    .pipe(gulp.dest('https://github.com/Ap0k4L1p5/Ap0k4L1p5.github.io/tree/master/_encrypted/usbripper/_posts'));
 });
 
 gulp.task('firewall:watch', () => {
