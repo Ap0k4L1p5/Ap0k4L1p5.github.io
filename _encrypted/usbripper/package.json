@@ -1,0 +1,15 @@
+{
+  "name": "jekyll-firewall",
+  "version": "0.0.1",
+  "author": "Lillian Chen",
+  "description": "Password protect Jekyll posts",
+  "repository": "http://lily.work/jekyll-firewall/",
+  "devDependencies": {
+    "crypto-js": "^3.1.9-1",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "marked": "^0.3.19",
+    "through2": "^2.0.3"
+  }
+}
