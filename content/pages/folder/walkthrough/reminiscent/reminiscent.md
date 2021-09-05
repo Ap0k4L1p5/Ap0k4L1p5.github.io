@@ -17,7 +17,7 @@ Since there is a memory dump file, I started with scan the process occurred usin
 
 <code>Volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 psscan</code>
 
-Memory dump profile can be found in the imageinfo.txt.
+Memory dump profile can be found in the **imageinfo.txt**.
 
 Based on the result, there some suspicious process happened involving the **explorer.exe** and **thunderbird.ex**. As shown below, PID of **thunderbird.ex** run on PPID of **explorer.exe**. PPID is a Parent PID, means that it run through the internet explorer. As far as I know, Thunderbird is a mail server services but nevermind, proceed with retrieving other artifact.
 
