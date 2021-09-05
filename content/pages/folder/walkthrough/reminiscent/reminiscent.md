@@ -15,7 +15,7 @@ Based on the given file, extracted 3 files which one of it is a .elf file. It’
 
 Since there is a memory dump file, I started with scan the process occurred using Volatility tool. Its a common tool for forensic investigation and analysis. Command as follows:
 
-<code>Volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 psscan</code>
+> Volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 psscan
 
 Memory dump profile can be found in the **imageinfo.txt**.
 
