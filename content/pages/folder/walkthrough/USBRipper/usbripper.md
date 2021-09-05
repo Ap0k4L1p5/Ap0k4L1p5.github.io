@@ -41,7 +41,7 @@ As a result, it found one event from the **syslog** that not suited to the json 
 After several Google-fu on understanding the output above, it appeared to be the Serial Number is a MD5 encoded string.
 ![md5.png](https://github.com/Ap0k4L1p5/private-repo/blob/master/folder/_protected/usbripper/md5.png)
 
-Once reversed, it turned out to be a text formed “mychemicalromance”. Since its something that came out from a violated USB events, I tried to put in a flag then submit. Well, that’s a flag for this challenge when append with the HTB{}. 
+Once reversed, it turned out to be a text formed "`mychemicalromance`". Since its something that came out from a violated USB events, I tried to put in a flag then submit. Well, that’s a flag for this challenge when append with the HTB{}. 
 
 <br>
 
