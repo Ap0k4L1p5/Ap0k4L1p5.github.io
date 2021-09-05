@@ -11,6 +11,7 @@ There is a sysadmin, who has been dumping all the USB events on his Linux host a
 
 Start with downloading the zip file given and extracted it.
 Once extracted, it contained 2 files which is **auth.json** and **syslog** file. Based on the challenge description stated, these 2 files are all about the USB events that happened within the sysadmin PC.
+
 ![unzip.png](https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/content/pages/folder/walkthrough/USBRipper/unzip.png) 
 
 Take a look on the **syslog** file, it’s a dump of every USB activities has ever occurred.
@@ -28,16 +29,17 @@ Incase need an extra understanding about this tools, may refer this [link](https
 
 Therefore, without further a due I start fire up that tool using the command follows:
 
-`usbrip events violations auth.json -f syslog`
+<kbd>usbrip events violations auth.json -f syslog</kbd>
 
 ![usbrip.png](https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/content/pages/folder/walkthrough/USBRipper/usbrip.png)
 
 As a result, it found one event from the **syslog** that not suited to the json file. 
 
 After several Google-fu on understanding the output above, it appeared to be the Serial Number is a MD5 encoded string.
+
 ![md5.png](https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/content/pages/folder/walkthrough/USBRipper/md5.png)
 
-Once reversed, it turned out to be a text formed "`mychemicalromance`". Since its something that came out from a violated USB events, I tried to put in a flag then submit. Well, that’s a flag for this challenge when append with the HTB{}. 
+Once reversed, it turned out to be a text formed "<samp>mychemicalromance</samp>". Since its something that came out from a violated USB events, I tried to put in a flag then submit. Well, that’s a flag for this challenge when append with the HTB{}. 
 
 <br>
 
