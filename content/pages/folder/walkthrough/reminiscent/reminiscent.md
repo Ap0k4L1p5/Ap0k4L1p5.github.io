@@ -25,7 +25,7 @@ Based on the result, there some suspicious process happened involving the **expl
 
 Next step was trying to analyze network communication thru command below.
 
-> volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 netscan
+> <code>volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 netscan</code>
 
 ![s3.png](https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/content/pages/folder/walkthrough/reminiscent/s3.png)
 
@@ -33,13 +33,13 @@ There is malicious IP same as mentioned in **resume.eml** file. The IP also show
 
 Proceed with the analysis, I tried to list all of files in the memory dump and resulting a lot of files. To ease my work, I narrowed down the listing by grep resume only.
 
-> volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 filescan | grep resume
+> <code>volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 filescan | grep resume</code>
 
 ![s4.png](https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/content/pages/folder/walkthrough/reminiscent/s4.png)
 
 2 files found! I proceed with downloading the file with **rw** permission to further analysis using command as follows:
 
-> volatility -f '/root/Desktop/Misc/reminiscent/flounder-pc-memdump.elf' --profile=Win7SP1x64 dumpfiles -Q 0x000000001e8feb70 --dump-dir ~/Desktop/Misc/reminiscent/
+> <code>volatility -f '/root/Desktop/Misc/reminiscent/flounder-pc-memdump.elf' --profile=Win7SP1x64 dumpfiles -Q 0x000000001e8feb70 --dump-dir ~/Desktop/Misc/reminiscent/</code>
 
 ![s5.png](https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/content/pages/folder/walkthrough/reminiscent/s5.png)
 
