@@ -15,7 +15,7 @@ Based on the given file, extracted 3 files which one of it is a .elf file. It’
 
 Since there is a memory dump file, I started with scan the process occurred using Volatility tool. Its a common tool for forensic investigation and analysis. Command as follows:
 
-> volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 psscan
+> <code>volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 psscan</code>
 
 Memory dump profile can be found in the **imageinfo.txt**.
 
@@ -26,6 +26,7 @@ Based on the result, there some suspicious process happened involving the **expl
 Next step was trying to analyze network communication thru command below.
 
 > volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 netscan
+
 ![s3.png](https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/content/pages/folder/walkthrough/reminiscent/s3.png)
 
 There is malicious IP same as mentioned in **resume.eml** file. The IP also shown that the connection was established and it was invoking **powershell.exe** in the PC. Means that resume sent is a malicious file that trigger the **powershell.exe**.
@@ -33,6 +34,7 @@ There is malicious IP same as mentioned in **resume.eml** file. The IP also show
 Proceed with the analysis, I tried to list all of files in the memory dump and resulting a lot of files. To ease my work, I narrowed down the listing by grep resume only.
 
 > volatilify -f ‘flounder-pc-memdump.elf’ --profile=Win7SP1x64 filescan | grep resume
+
 ![s4.png](https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/content/pages/folder/walkthrough/reminiscent/s4.png)
 
 2 files found! I proceed with downloading the file with **rw** permission to further analysis using command as follows:
