@@ -29,7 +29,7 @@ Incase need an extra understanding about this tools, may refer this [link](https
 
 Therefore, without further a due I start fire up that tool using the command follows:
 
-<code>usbrip events violations auth.json -f syslog</code>
+> <code>usbrip events violations auth.json -f syslog</code>
 
 ![usbrip.png](https://raw.githubusercontent.com/Ap0k4L1p5/Ap0k4L1p5.github.io/master/content/pages/folder/walkthrough/USBRipper/usbrip.png)
 
