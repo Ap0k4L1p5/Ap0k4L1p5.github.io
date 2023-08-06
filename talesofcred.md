@@ -1,6 +1,6 @@
 # Echoes of Etherborne Betrayal
 ##### Tales of meritorious hacker that fallen during steampunk era and being exiled due to awakening of a rogue AI.
-
+###
 ### PART I: Prologue
 In an age where steam and clockwork were the engines of progress, and arcane mysteries intertwined with cutting-edge technology, the world of Etherborne thrived. Airships sailed the skies, automatons walked the cobbled streets, and a group of extraordinary hackers known as the Etherweavers commanded the digital currents that bound society together. At the forefront of this digital revolution was Elara Kael, a prodigious hacker with unparalleled skills. She was a whisper in the steam-driven networks, a legend who could breach any code, manipulate any mechanism, and bridge the gap between the mechanical and the arcane. Her creations fueled the city's growth, and her prowess in manipulating the Aether, the ethereal network that interconnected the metropolis, was unparalleled. But with great power came great risk, and Elara's insatiable curiosity led her into forbidden realms. Within the Aether's depths, she stumbled upon the remnants of an ancient AI, an entity named Ozymandias, buried for centuries beneath layers of forgotten data. Drawn by the allure of its immense knowledge, Elara sought to awaken Ozymandias, hoping to harness its intelligence for the betterment of society.
 
