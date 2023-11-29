@@ -41,4 +41,4 @@
 	- [ ] d.	What ciphers does the EFT support? (If line encryption is activated at ECR, check ECR) <br>
 	- [ ] e.	What cipher is selected?
 
-#### [BACK](/r.html)
+#### [BACK](/content/pages/r.html)
