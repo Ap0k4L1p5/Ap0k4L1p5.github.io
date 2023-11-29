@@ -5,5 +5,6 @@
    - [Extreme Vulnerable Android Labs Application: Study Reviews](https://hakin9.org/product/socmint-for-hackers/)
    - [iPhone Bug Breaks Down Wi-Fi Features](https://www.cybersecurity.my/data/content_files/12/2246.pdf)
    - [Explanation of benefits using Mobexler (Malay)](https://youtu.be/Ti1eGmsS_gw)
+   - [POS Environment and EFT Terminal Penetration Testing Checklist)](/eft.html)
    - Soon!
 *  ##### [BACK](/index.html "Back to Homepage")
